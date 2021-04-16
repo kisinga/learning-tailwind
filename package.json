@@ -1,0 +1,21 @@
+{
+  "name": "learning-tailwind",
+  "version": "1.0.0",
+  "description": "My journey learning tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [
+    "tailwind",
+    "csss",
+    "learning"
+  ],
+  "author": "Kisinga",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  }
+}
